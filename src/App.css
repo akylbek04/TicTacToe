@@ -1,0 +1,39 @@
+.wrapper {
+  height: 100vh;
+  max-width: 500px;
+  margin: 100px auto 40px;
+}
+
+.row {
+  border: 1px solid black;
+  display: flex;
+  padding: 5px;
+}
+
+.cell {
+  border: 1px solid black;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: black;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  transition: 0.09s ease-in-out;
+}
+
+.reset:hover {
+  background-color: rgb(227, 224, 224);
+  
+  border-radius: 5px;
+  transform: scale(1.1);
+  height: 20px;
+  width: 20px;
+  padding: 2px;
+}
